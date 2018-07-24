@@ -4,7 +4,7 @@
 @include mat-core();
 
 $lemonmart-primary: mat-palette($mat-cyan, 300);
-$lemonmart-accent: mat-palette($mat-green, 400);
+$lemonmart-accent: mat-palette($mat-yellow, 500);
 $lemonmart-app-theme: mat-light-theme($lemonmart-primary, $lemonmart-accent);
 
 @include angular-material-theme($lemonmart-app-theme);
