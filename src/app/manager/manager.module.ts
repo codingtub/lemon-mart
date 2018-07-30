@@ -7,9 +7,10 @@ import { ManagerHomeComponent } from './manager-home/manager-home.component';
 import { ManagerComponent } from './manager.component';
 import { UserManagementComponent } from './user-management/user-management.component';
 import { ReceiptLookupComponent } from './receipt-lookup/receipt-lookup.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
-  imports: [CommonModule, ManagerRoutingModule, MaterialModule],
+  imports: [CommonModule, ManagerRoutingModule, MaterialModule, FlexLayoutModule],
   declarations: [
     ManagerHomeComponent,
     ManagerComponent,
